@@ -25,6 +25,7 @@
 
   <ItemGroup>
     <Folder Include="Betul\" />
+    <Folder Include="Software\" />
   </ItemGroup>
 
 </Project>
