@@ -1,4 +1,4 @@
-﻿using ETrade.Business.Concrete;
+﻿using FinallyProjectBUSSINIUS.Concrete;
 using FinallyProjectDAL.Abstract;
 using FinallyProjectDATA.Context;
 using FinallyProjectDATA.Models.Entities;

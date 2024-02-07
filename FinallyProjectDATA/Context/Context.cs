@@ -1,5 +1,4 @@
-﻿using ETrade.Data.Models.Identity;
-using FinallyProjectDATA.Models.Entities;
+﻿using FinallyProjectDATA.Models.Entities;
 using FinallyProjectDATA.Models.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
@@ -15,7 +14,7 @@ namespace FinallyProjectDATA.Context
     {
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
-            options.UseSqlServer("Server=SA107P005\\SQLEXPRESS;Database=ETrade;Trusted_Connection=True;");
+            options.UseSqlServer("Server=SA107P005\\SQLEXPRESS;Database=FinallyProject;Trusted_Connection=True;");
         }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Product> Products { get; set; }

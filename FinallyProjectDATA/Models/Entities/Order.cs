@@ -1,5 +1,4 @@
-﻿
-using FinallyProjectDATA.Models.ViewModels;
+﻿using FinallyProjectDATA.Models.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;

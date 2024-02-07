@@ -1,5 +1,4 @@
-﻿using ETrade.Data.Models.Identity;
-using FinallyProjectDATA.Models.Identity;
+﻿using FinallyProjectDATA.Models.Identity;
 using FinallyProjectDATA.Models.ViewModels;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;

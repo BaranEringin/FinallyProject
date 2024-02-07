@@ -5,19 +5,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ETrade.Data.Models.Identity
+namespace FinallyProjectDATA.Models.Identity
 {
-    public class AppUser : IdentityUser<int>
-    {
-        public AppUser() : base()
-        {
+		public class AppUser : IdentityUser<int>
+		{
+			public AppUser() : base()
+			{
 
-        }
-        public AppUser(string username) : base(username)
-        {
+			}
+			public AppUser(string username) : base(username)
+			{
 
-        }
-        public string Name { get; set; }
-        public string Surname { get; set; }
-    }
+			}
+			public string Name { get; set; }
+			public string Surname { get; set; }
+		}
+	
 }

@@ -25,5 +25,5 @@ namespace FinallyProjectDATA.Models.ViewModels
         public string Mahalle { get; set; }
 
         public string PostalCode { get; set; }
-    }s
+    }
 }
