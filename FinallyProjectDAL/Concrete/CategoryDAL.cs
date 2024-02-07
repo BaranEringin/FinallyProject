@@ -12,5 +12,6 @@ namespace FinallyProjectDAL.Concrete
 {
     public class CategoryDAL : GenericRepository<Category, Context>, ICategoryDAL
     {
+
     }
 }
